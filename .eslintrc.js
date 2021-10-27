@@ -6,8 +6,10 @@ module.exports = {
   },
   plugins: ['@typescript-eslint/eslint-plugin'],
   extends: [
+    'airbnb-typescript',
+    'airbnb/hooks',
     'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended',
+    'plugin:@typescript-eslint/recommended-requiring-type-checking',
   ],
   root: true,
   env: {

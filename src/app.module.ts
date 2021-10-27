@@ -25,15 +25,3 @@ import { AuthModule } from './auth/auth.module';
   providers: [],
 })
 export class AppModule {}
-
-
-// TypeOrmModule.forRoot({
-//   type: "postgres",
-//   host: "0.0.0.0",
-//   port: 5432,
-//   username: "root",
-//   password: "root",
-//   database: "finchatbot_factory",
-//   entities: ["dist/**/*.entity{.ts,.js}"],
-//   synchronize: true,
-// }),
